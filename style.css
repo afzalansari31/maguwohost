@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/* navbar */
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  height: 35px;
+  margin-left: 3%;
+}
+
+.no {
+  background-color: #395B64;
+}
+
+.navbar-nav {
+  margin-left: 50%;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  padding-right: 50px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+
+/* middle section */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("homebg.jpg");
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.heading1 {
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.para {
+  font-size: 1.6rem;
+  padding-bottom: 30px;
+}
+
+.img1 {
+  padding-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid white;
+
+}
+
+.btn1 {
+  margin: 5px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+/* aboutus */
+
+
+
+.box1 {
+  background-color: #293462;
+  text-align: center;
+  padding: 70px 90px;
+}
+
+.img2 {
+  height: 140px;
+  padding-bottom: 30px;
+}
+
+.heading2 {
+  font-size: 1.6rem;
+  color: white;
+  padding-bottom: 20px;
+}
+
+
+.para1 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.btn2 {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #293462;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+
+
+.box2 {
+  background-color: #F2DF3A;
+  text-align: center;
+  padding: 115px 90px;
+
+
+}
+
+.heading3 {
+  font-size: 3rem;
+  color: #293462;
+  padding-bottom: 30px;
+}
+
+.heading4 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.para2 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.btn3 {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #F2DF3A;
+  color: white;
+  padding: 10px;
+  width: 30%;
+  cursor: pointer;
+}
+
+/* FEATURES */
+
+#features {
+  margin: 3%;
+  text-align: center;
+ 
+}
+
+.heading5 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.heading6 {
+
+  color: orange;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.fea {
+  padding-bottom: 18px;
+}
+
+/* clients */
+
+#clients{
+  margin-top: 4%;
+  text-align: center;
+}
+
+.cli1{
+  border: 1px solid black;
+}
+
+.heading7{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+
+/* reviews */
+
+#reviews{
+  margin-top: 3%;
+  text-align: center;
+}
+
+.heading8{
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+
+.heading9{
+  font-weight: 600;
+}
+
+.para4{
+  color: gray;
+}
+
+.testi1{
+  padding-bottom: 30px;
+  width: 50%;
+  height: 50%;
+}
+
+/* contact */
+
+#contact{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.heading11{
+  margin-bottom: 3%;
+  font-weight: 600;
+}
+
+.icon7{
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+  color: gray;
+  cursor: pointer;
+}
+
+.icon7:hover{
+  color: red;
+}
+
+.change4{
+  border: 1px solid;
+  margin-bottom: 3%;
+  width: 90%;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+.btn6{
+  border-radius: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn6:hover{
+  color:orange;
+}
+
+/* footer */
+
+
+
+#footer{
+  text-align: center;
+  margin-top: 2%;
+  background-color: black;
+  height: 30vh;
+}
+
+.icon{
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 1.6rem;
+}
+
+.icon1{
+  color: red;
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 1.6rem;
+}
+
+
+
+.copyright{
+  padding-top: 20px;
+  color: gray;
+}
+
